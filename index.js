@@ -92,6 +92,7 @@ app.use(express.json())
 // Logging:
 // app.use(require('./src/middlewares/logging'))  // vercel için iptal edildi.
 
+
 // SessionsCookies:
 app.use(require('cookie-session')({ secret: process.env.SECRET_KEY }))
 
